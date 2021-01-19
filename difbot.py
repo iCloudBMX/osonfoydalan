@@ -13,9 +13,9 @@ import time
 
 
 #token
-bot = telebot.TeleBot("1465833248:AAEz1W4GE5xDdiswfiEkNhB6WZ4eRHs_Mbc")
+bot = telebot.TeleBot("token")
 
-channel_id = -1001402037135
+channel_id = 0
 channel = bot.get_chat(channel_id)
 downloaded_file = bot.download_file(
     bot.get_file(channel.pinned_message.document.file_id).file_path)
